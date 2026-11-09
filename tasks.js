@@ -79,7 +79,6 @@
     $('question-figure').hidden = !task.image;
     $('question-figure').classList.toggle('is-source-question', sourceQuestion);
     if (task.image) {
-      $('question-image-link').href = task.image.src;
       $('question-image').src = task.image.src; $('question-image').alt = task.image.alt || `Рисунок к заданию ${task.number}`;
     } else { $('question-image').removeAttribute('src'); $('question-image').alt = ''; }
     $('answer-options').replaceChildren();
@@ -252,6 +251,21 @@
     navigate(first < 0 ? 0 : first);
   });
   $('confirm-cancel').addEventListener('click', () => dialog.close());
+  const imageDialog = $('image-dialog');
+  $('question-image-open').addEventListener('click', () => {
+    const task = tasks[state.current];
+    if (!task.image) return;
+    $('image-dialog-title').textContent = 'Рисунок к заданию ' + task.number;
+    $('image-dialog-image').src = task.image.src;
+    $('image-dialog-image').alt = task.image.alt || 'Рисунок к заданию ' + task.number;
+    imageDialog.showModal();
+  });
+  $('image-dialog-close').addEventListener('click', () => imageDialog.close());
+  imageDialog.addEventListener('click', event => {
+    if (event.target !== imageDialog) return;
+    const box = imageDialog.getBoundingClientRect();
+    if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) imageDialog.close();
+  });
   $('confirm-action').addEventListener('click', () => {
     const action = pendingAction; dialog.close();
     if (action === 'new') freshVariant();

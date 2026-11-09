@@ -70,7 +70,7 @@ progress::-moz-progress-bar { background: #4b7483; }
 .question-figure img { display: block; max-width: 100%; max-height: 250px; width: auto; margin: auto; }
 .question-source { margin: 12px 0 0; color: #718b97; font-size: 10px; }
 .question-card.is-switching { pointer-events: none; }
-.question-figure a { display: block; border-radius: 6px; cursor: zoom-in; }
+.image-open { display: block; width: 100%; padding: 0; border: 0; border-radius: 6px; background: transparent; cursor: zoom-in; }
 .question-figure figcaption { margin-top: 10px; text-align: right; font-size: 10px; color: #718b97; }
 .question-figure.is-source-question { margin-top: 24px; padding: 16px; background: #fff; }
 .question-figure.is-source-question img { width: 100%; max-height: none; }
@@ -128,6 +128,14 @@ dialog::backdrop { background: #2a4c6266; backdrop-filter: blur(7px); }
 dialog h2 { margin: 0 0 15px; font: 400 25px/1.3 Lora, Georgia, serif; letter-spacing: -.035em; }
 dialog > p:not(.eyebrow) { color: #5d7987; font-size: 13px; line-height: 1.8; }
 .dialog-actions { margin-top: 27px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.image-dialog { width: min(1200px, calc(100% - 24px)); max-height: 92svh; padding: 20px; overflow: auto; }
+.image-dialog-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
+.image-dialog-heading h2 { margin: 0; font-size: clamp(17px, 3vw, 24px); }
+.image-dialog-close { flex: 0 0 36px; width: 36px; height: 36px; border: 1px solid #8faab74d; border-radius: 50%; background: transparent; color: #486575; font: 26px/1 Arial, sans-serif; }
+.image-dialog-close:hover { background: #d6e4ec; }
+.image-dialog-content { padding: 12px; border-radius: 10px; background: #fff; }
+.image-dialog-content img { display: block; width: 100%; max-height: calc(92svh - 112px); object-fit: contain; touch-action: pan-x pan-y pinch-zoom; }
+html:has(#image-dialog[open]) { overflow: hidden; scrollbar-gutter: stable; }
 @media (max-width: 1000px) { .workspace { width: calc(100% - 56px); } .study-layout { grid-template-columns: 208px minmax(0, 1fr); gap: 20px; } .navigator { padding: 22px 16px; } .question-card, .results-card { padding-left: 28px; padding-right: 28px; } }
 @media (max-width: 760px) {
   .workspace { width: calc(100% - 32px); }

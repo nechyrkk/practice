@@ -40,7 +40,7 @@
             <div class="card-heading"><div><p class="eyebrow" id="question-position">Твой вариант</p><h2 id="question-title" tabindex="-1">Задания скоро появятся</h2></div><span class="topic" id="question-topic" hidden></span></div>
             <p class="question-source" id="question-source" hidden></p>
             <p class="question-text" id="question-text">Готовим твой вариант…</p>
-            <figure class="question-figure" id="question-figure" hidden><a id="question-image-link" target="_blank" rel="noopener" aria-label="Открыть рисунок крупнее в новой вкладке"><img id="question-image" alt=""></a><figcaption>Нажми на рисунок, чтобы открыть крупнее</figcaption></figure>
+            <figure class="question-figure" id="question-figure" hidden><button id="question-image-open" class="image-open" type="button" aria-label="Увеличить рисунок" aria-haspopup="dialog" aria-controls="image-dialog"><img id="question-image" alt=""></button><figcaption>Нажми на рисунок, чтобы открыть крупнее</figcaption></figure>
             <fieldset class="answer-group"><legend>Выбери один ответ</legend><div class="answer-options" id="answer-options"></div></fieldset>
             <div class="answer-tools"><p id="answer-hint">Ответ можно изменить до завершения варианта.</p><button class="clear-answer" id="clear-answer" type="button">Снять ответ</button></div>
             <div class="review-feedback" id="review-feedback" role="status" hidden></div>
@@ -59,6 +59,10 @@
     </main>
     <footer class="page-footer"><span>Пространство для подготовки</span><span>Знания собираются по капле.</span></footer>
   </div>
+  <dialog id="image-dialog" class="image-dialog" aria-labelledby="image-dialog-title">
+    <header class="image-dialog-heading"><h2 id="image-dialog-title">Рисунок к заданию</h2><button id="image-dialog-close" class="image-dialog-close" type="button" aria-label="Закрыть рисунок" autofocus>×</button></header>
+    <div class="image-dialog-content"><img id="image-dialog-image" alt=""></div>
+  </dialog>
   <dialog id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-description">
     <p class="eyebrow" id="confirm-eyebrow">Твой вариант</p><h2 id="confirm-title">Завершить вариант?</h2><p id="confirm-description"></p><div class="dialog-actions"><button class="quiet-button" id="confirm-cancel" type="button">Продолжить решать</button><button class="next-button" id="confirm-action" type="button">Завершить</button></div>
   </dialog>
