@@ -369,10 +369,19 @@
   window.addEventListener('resize', resize);
   async function init() {
     resize();
-    try { await image.decode(); } catch { hero.classList.add('is-fallback'); return; }
-    if (!ctx) { hero.classList.add('is-fallback'); return; }
-    prepare(); ready = true; hero.classList.add('is-playing');
-    time = reduced || returning ? END : frozen ?? 0; draw(time); play(time);
+    function fallback() {
+      hero.classList.add('is-fallback');
+      hero.classList.remove('is-loading');
+    }
+    try { await image.decode(); } catch { fallback(); return; }
+    if (!ctx) { fallback(); return; }
+    prepare(); ready = true;
+    time = reduced || returning ? END : frozen ?? 0;
+    draw(time);
+    hero.dataset.scene = time < IMPACT ? 'drop' : time < END ? 'reveal' : 'settled';
+    hero.classList.add('is-playing');
+    hero.classList.remove('is-loading');
+    play(time);
   }
   init();
 })();
