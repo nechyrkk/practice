@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#abc4da">
+  <meta name="description" content="Задания для спокойной подготовки: один вопрос за раз, навигация по номерам и сохранение ответов.">
+  <title>Твой вариант — подготовка</title>
+  <link rel="preload" as="font" type="font/ttf" href="assets/fonts/lora-variable.ttf" crossorigin>
+  <link rel="stylesheet" href="tasks.css">
+  <link rel="stylesheet" href="content-protection.css">
+  <script src="task-bank.js" defer></script>
+  <script src="variant-engine.js" defer></script>
+  <script src="tasks.js" defer></script>
+</head>
+<body>
+  <div class="workspace">
+    <header class="topbar">
+      <a class="home-link" href="index.html"><span aria-hidden="true">←</span> На главную</a>
+    </header>
+    <main>
+      <section class="page-heading" aria-labelledby="page-title">
+        <div><p class="eyebrow">Маленькие шаги к большим открытиям</p><h1 id="page-title">Твой вариант</h1><p class="page-subtitle">В своём темпе. Одно задание за другим.</p></div>
+        <div class="variant-meta"><span class="set-label" id="set-label">Задания готовятся</span><span id="variant-code" class="variant-code"></span></div>
+      </section>
+      <p class="page-notice" id="page-notice" role="status" hidden></p>
+      <div class="study-layout" id="study-layout">
+        <aside class="navigator" aria-label="Навигация по варианту">
+          <div class="navigator-heading"><h2>Задания</h2><span id="task-count" class="count-badge">—</span></div>
+          <nav class="number-grid" id="number-grid" aria-label="Номера заданий"></nav>
+          <div class="progress-block"><div class="progress-caption"><span id="progress-caption">Вариант ещё не создан</span><span id="progress-percent">—</span></div><progress id="progress" value="0" max="1" aria-label="Прогресс ответов"></progress></div>
+          <div class="legend"><span><i class="legend-dot answered" aria-hidden="true"></i>Есть ответ</span><span><i class="legend-dot current" aria-hidden="true"></i>Текущее</span></div>
+          <button class="finish-button" id="finish" type="button">Завершить вариант <span aria-hidden="true">↗</span></button>
+          <button class="quiet-button results-link" id="show-results" type="button" hidden>К результатам <span aria-hidden="true">↗</span></button>
+          <button class="quiet-button new-button" id="new-variant" type="button"><span aria-hidden="true">↻</span> Новый вариант</button>
+          <p class="save-status" id="save-status" role="status"><span aria-hidden="true"></span>Ответы сохраняются в браузере</p>
+        </aside>
+        <div class="exercise-area">
+          <section class="question-card" id="question-card" aria-labelledby="question-title">
+            <div class="card-heading"><div><p class="eyebrow" id="question-position">Твой вариант</p><h2 id="question-title" tabindex="-1">Задания скоро появятся</h2></div><span class="topic" id="question-topic" hidden></span></div>
+            <p class="question-source" id="question-source" hidden></p>
+            <p class="question-text" id="question-text">Готовим твой вариант…</p>
+            <figure class="question-figure" id="question-figure" hidden><a id="question-image-link" target="_blank" rel="noopener" aria-label="Открыть рисунок крупнее в новой вкладке"><img id="question-image" alt=""></a><figcaption>Нажми на рисунок, чтобы открыть крупнее</figcaption></figure>
+            <fieldset class="answer-group"><legend>Выбери один ответ</legend><div class="answer-options" id="answer-options"></div></fieldset>
+            <div class="answer-tools"><p id="answer-hint">Ответ можно изменить до завершения варианта.</p><button class="clear-answer" id="clear-answer" type="button">Снять ответ</button></div>
+            <div class="review-feedback" id="review-feedback" role="status" hidden></div>
+            <footer class="card-footer"><button class="back-button" id="previous" type="button"><span aria-hidden="true">←</span> Назад</button><div class="forward-actions"><button class="skip-button" id="skip" type="button">Пропустить</button><button class="next-button" id="next" type="button">Далее <span aria-hidden="true">→</span></button></div></footer>
+          </section>
+          <section class="results-card" id="results-card" aria-labelledby="results-title" hidden>
+            <p class="eyebrow">Ещё один шаг сделан</p><h2 id="results-title" tabindex="-1">Вариант завершён</h2><p id="results-intro">Можно посмотреть ответы и разобраться в каждом задании.</p>
+            <div class="result-score"><strong id="score-value">0</strong><span id="score-total">из 20 верно</span></div>
+            <div class="result-stats"><div><i class="stat-dot good" aria-hidden="true"></i><strong id="stat-correct">0</strong><span>Верно</span></div><div><i class="stat-dot wrong" aria-hidden="true"></i><strong id="stat-incorrect">0</strong><span>С ошибкой</span></div><div><i class="stat-dot empty" aria-hidden="true"></i><strong id="stat-empty">0</strong><span>Без ответа</span></div></div>
+            <div class="result-actions"><button class="next-button" id="review-answers" type="button">Разобрать ответы <span aria-hidden="true">→</span></button><button class="quiet-button" id="results-new" type="button">Попробовать новый вариант</button></div>
+          </section>
+          <p class="study-note" id="study-note" hidden></p>
+        </div>
+      </div>
+      <noscript><p class="page-notice">Для генерации варианта и сохранения ответов включи JavaScript в браузере.</p></noscript>
+    </main>
+    <footer class="page-footer"><span>Пространство для подготовки</span><span>Знания собираются по капле.</span></footer>
+  </div>
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title" aria-describedby="confirm-description">
+    <p class="eyebrow" id="confirm-eyebrow">Твой вариант</p><h2 id="confirm-title">Завершить вариант?</h2><p id="confirm-description"></p><div class="dialog-actions"><button class="quiet-button" id="confirm-cancel" type="button">Продолжить решать</button><button class="next-button" id="confirm-action" type="button">Завершить</button></div>
+  </dialog>
+</body>
+</html>

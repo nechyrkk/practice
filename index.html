@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#abc4da">
+  <meta name="description" content="Спокойное место для подготовки. Сгенерируйте тренировочный вариант и решайте в своём темпе.">
+  <title>Тихое озеро — подготовка</title>
+  <link rel="preload" as="image" href="assets/lake-reference.png">
+  <link rel="preload" as="font" type="font/ttf" href="assets/fonts/lora-italic.ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="content-protection.css">
+  <script src="scene.js" defer></script>
+  <script src="quote.js" defer></script>
+  <script src="task-bank.js" defer></script>
+  <script src="variant-engine.js" defer></script>
+  <script src="practice.js" defer></script>
+</head>
+<body>
+  <main class="hero" aria-label="Подготовка к заданиям">
+    <img class="still" src="assets/lake-reference.png" alt="Тихое лесное озеро. На дальнем берегу маленький рыбак сидит на пирсе, справа растёт лес." fetchpriority="high">
+    <canvas id="landscape" aria-hidden="true"></canvas>
+    <button class="generate" id="generate" type="button"><span>Сгенерировать вариант</span><span class="generate-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></span></button>
+    <blockquote class="hero-quote"><p class="quote-lead">Знания собираются по капле.</p><p class="quote-follow">Со временем они становятся глубиной.</p></blockquote>
+    <p class="sr-only" id="scene-status" role="status">Сгенерируйте тренировочный вариант. Escape — пропустить заставку.</p>
+  </main>
+  <noscript><style>.still{opacity:1}.generate{display:none}</style></noscript>
+</body>
+</html>

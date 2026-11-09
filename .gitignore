@@ -1,0 +1,16 @@
+/tmp/
+/font-study.html
+/index.previous.html
+/assets/*-preview.jpg
+/assets/reference-*.jpg
+/assets/fonts/cormorant-garamond-italic.ttf
+/assets/fonts/literata-italic.ttf
+/assets/fonts/OFL-CormorantGaramond.txt
+/assets/fonts/OFL-Literata.txt
+node_modules/
+.env
+.env.*
+Thumbs.db
+.DS_Store
+*.log
+__pycache__/

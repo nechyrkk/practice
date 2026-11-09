@@ -1,0 +1,3122 @@
+[
+  {
+    "id": "original-2023-01",
+    "number": 1,
+    "topic": "Спички",
+    "text": "Смартик сложил из одинаковых палочек число 2023 два раза. На сколько палочек больше он использовал во второй раз?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-01.webp",
+      "alt": "Смартик сложил из одинаковых палочек число 2023 два раза. На сколько палочек больше он использовал во второй раз?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        535,
+        1120,
+        738
+      ]
+    }
+  },
+  {
+    "id": "original-2023-02",
+    "number": 2,
+    "topic": "Шифры",
+    "text": "Смартик придумал шифр: если число находится в круге — это означает, что к нему прибавляется 5, а если в квадрате, то вычитается 4. Какое число зашифровано на рисунке?",
+    "options": [
+      "15",
+      "11",
+      "10",
+      "6",
+      "1"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-02.webp",
+      "alt": "Смартик придумал шифр: если число находится в круге — это означает, что к нему прибавляется 5, а если в квадрате, то вычитается 4. Какое число зашифровано на рисунке?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        747,
+        1120,
+        918
+      ]
+    }
+  },
+  {
+    "id": "original-2023-03",
+    "number": 3,
+    "topic": "Порядок",
+    "text": "В ряду 10 стульев. Маша села на седьмой стул справа, а Лена — на седьмой стул слева. Сколько стульев между ними?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-03.webp",
+      "alt": "В ряду 10 стульев. Маша села на седьмой стул справа, а Лена — на седьмой стул слева. Сколько стульев между ними?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        925,
+        1120,
+        1059
+      ]
+    }
+  },
+  {
+    "id": "original-2023-04",
+    "number": 4,
+    "topic": "Маршруты",
+    "text": "В точке О находится колодец. Из какой точки нельзя добраться до колодца, двигаясь по дорожкам?",
+    "options": [
+      "А",
+      "Б",
+      "В",
+      "Г",
+      "Д"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-04.webp",
+      "alt": "В точке О находится колодец. Из какой точки нельзя добраться до колодца, двигаясь по дорожкам?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1062,
+        1120,
+        1297
+      ]
+    }
+  },
+  {
+    "id": "original-2023-05",
+    "number": 5,
+    "topic": "Разряды",
+    "text": "Коала Клара обозначает сотни кругами, десятки — квадратами и единицы — треугольниками. Она сосчитала листья на своём эвкалипте. Результат её подсчётов изображён на рисунке. Сколько листьев на эвкалипте?",
+    "options": [
+      "234",
+      "243",
+      "324",
+      "423",
+      "432"
+    ],
+    "correct": 1,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-05.webp",
+      "alt": "Коала Клара обозначает сотни кругами, десятки — квадратами и единицы — треугольниками. Она сосчитала листья на своём эвкалипте. Результат её подсчётов изображён на рисунке. Сколько листьев на эвкалипте?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1307,
+        1120,
+        1583
+      ]
+    }
+  },
+  {
+    "id": "original-2023-06",
+    "number": 6,
+    "topic": "Время",
+    "text": "Уроки в школе начинаются в 9 часов. В 8 часов 45 минут Петя был на полпути от дома до школы. Если он будет идти с той же скоростью, то придёт в школу за 10 минут до уроков. Сколько минут занимает у него весь путь от дома до школы?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correct": 0,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-06.webp",
+      "alt": "Уроки в школе начинаются в 9 часов. В 8 часов 45 минут Петя был на полпути от дома до школы. Если он будет идти с той же скоростью, то придёт в школу за 10 минут до уроков. Сколько минут занимает у него весь путь от дома до школы?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        111,
+        1120,
+        315
+      ]
+    }
+  },
+  {
+    "id": "original-2023-07",
+    "number": 7,
+    "topic": "Разрезания",
+    "text": "Два одинаковых квадратных листа бумаги наложили друг на друга. После этого, не смещая листы, сделали два разреза по пунктирным линиям, как показано на рисунке. Сколько частей получилось?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "8",
+      "11"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-07.webp",
+      "alt": "Два одинаковых квадратных листа бумаги наложили друг на друга. После этого, не смещая листы, сделали два разреза по пунктирным линиям, как показано на рисунке. Сколько частей получилось?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        330,
+        1120,
+        614
+      ]
+    }
+  },
+  {
+    "id": "original-2023-08",
+    "number": 8,
+    "topic": "Свойства чисел",
+    "text": "Какое утверждение про число 999 неверно?",
+    "options": [
+      "Это число — наибольшее трёхзначное.",
+      "Это число — нечётное.",
+      "Сумма цифр этого числа равна 27.",
+      "Это число равно сумме 111 девяток.",
+      "Отражение числа 999 в зеркале — это число 666."
+    ],
+    "correct": 4,
+    "points": 3,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-08.webp",
+      "alt": "Какое утверждение про число 999 неверно?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        627,
+        1120,
+        882
+      ]
+    }
+  },
+  {
+    "id": "original-2023-09",
+    "number": 9,
+    "topic": "Складывание",
+    "text": "Из листа клетчатой бумаги Смартик вырезал цифру 4 и согнул её по стороне одной клеточки. Какую фигуру он не мог получить?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 4,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-09.webp",
+      "alt": "Из листа клетчатой бумаги Смартик вырезал цифру 4 и согнул её по стороне одной клеточки. Какую фигуру он не мог получить?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1007,
+        1120,
+        1338
+      ]
+    }
+  },
+  {
+    "id": "original-2023-10",
+    "number": 10,
+    "topic": "Составление уравнения",
+    "text": "В коробке было 24 конфеты. Сначала Саша взяла несколько конфет, потом Ира взяла в два раза больше, чем Саша, а затем Маша — 6 конфет. После этого в коробке осталось 3 конфеты. Сколько конфет взяла Ира?",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "12",
+      "18"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-10.webp",
+      "alt": "В коробке было 24 конфеты. Сначала Саша взяла несколько конфет, потом Ира взяла в два раза больше, чем Саша, а затем Маша — 6 конфет. После этого в коробке осталось 3 конфеты. Сколько конфет взяла Ира?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1358,
+        1120,
+        1555
+      ]
+    }
+  },
+  {
+    "id": "original-2023-11",
+    "number": 11,
+    "topic": "Логика слов",
+    "text": "Катя записала на доске словами пример на умножение двух однозначных чисел, а Влад стёр несколько букв. Осталась запись: «…мь умножить на …ть». Из скольких разных примеров могла получиться эта запись?",
+    "options": [
+      "8",
+      "6",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-11.webp",
+      "alt": "Катя записала на доске словами пример на умножение двух однозначных чисел, а Влад стёр несколько букв. Осталась запись: «…мь умножить на …ть». Из скольких разных примеров могла получиться эта запись?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        113,
+        1120,
+        383
+      ]
+    }
+  },
+  {
+    "id": "original-2023-12",
+    "number": 12,
+    "topic": "Сравнения",
+    "text": "На уроке математики Миша, Федя и Дима получили оценки 3, 4 и 5. Оценка Миши лучше, чем оценка Феди, а оценка Феди хуже, чем оценка Димы. Какое утверждение обязательно верно?",
+    "options": [
+      "У Димы — 5.",
+      "У Миши — 4.",
+      "У Феди — 3.",
+      "У Димы — 3.",
+      "У Феди — 4."
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-12.webp",
+      "alt": "На уроке математики Миша, Федя и Дима получили оценки 3, 4 и 5. Оценка Миши лучше, чем оценка Феди, а оценка Феди хуже, чем оценка Димы. Какое утверждение обязательно верно?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        405,
+        1120,
+        605
+      ]
+    }
+  },
+  {
+    "id": "original-2023-13",
+    "number": 13,
+    "topic": "Равенства",
+    "text": "На рисунке буквы С, М, А, Р, Т обозначают числа: С − 2 = М + 0 = А + 2 = Р + 3 = Т. Какое из этих чисел самое маленькое?",
+    "options": [
+      "С",
+      "М",
+      "А",
+      "Р",
+      "Т"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-13.webp",
+      "alt": "На рисунке буквы С, М, А, Р, Т обозначают числа: С − 2 = М + 0 = А + 2 = Р + 3 = Т. Какое из этих чисел самое маленькое?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        632,
+        1120,
+        894
+      ]
+    }
+  },
+  {
+    "id": "original-2023-14",
+    "number": 14,
+    "topic": "Комбинаторика",
+    "text": "В таблице написаны буквы. Переходить от одной буквы к следующей можно только направо или вниз. Сколькими способами можно прочитать слово СМАРТ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 4,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-14.webp",
+      "alt": "В таблице написаны буквы. Переходить от одной буквы к следующей можно только направо или вниз. Сколькими способами можно прочитать слово СМАРТ?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        915,
+        1120,
+        1155
+      ]
+    }
+  },
+  {
+    "id": "original-2023-15",
+    "number": 15,
+    "topic": "Нумерация",
+    "text": "В двадцатипятиэтажном доме на первом этаже расположены магазины, а выше на каждом этаже с чётным номером находится 6 квартир, а с нечётным номером — 5. Алина живёт в квартире 116. Какой это этаж?",
+    "options": [
+      "10",
+      "11",
+      "21",
+      "22",
+      "23"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-15.webp",
+      "alt": "В двадцатипятиэтажном доме на первом этаже расположены магазины, а выше на каждом этаже с чётным номером находится 6 квартир, а с нечётным номером — 5. Алина живёт в квартире 116. Какой это этаж?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1175,
+        1120,
+        1378
+      ]
+    }
+  },
+  {
+    "id": "original-2023-16",
+    "number": 16,
+    "topic": "Числовой ребус",
+    "text": "В ребусе разные фигурки обозначают разные цифры. Три одинаковых трёхзначных числа «круг, треугольник, квадрат» в сумме дают трёхзначное число из трёх одинаковых квадратов. Чему равна сумма треугольник + круг + квадрат?",
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12",
+      "10"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-16.webp",
+      "alt": "В ребусе разные фигурки обозначают разные цифры. Три одинаковых трёхзначных числа «круг, треугольник, квадрат» в сумме дают трёхзначное число из трёх одинаковых квадратов. Чему равна сумма треугольник + круг + квадрат?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1335,
+        1120,
+        1584
+      ]
+    }
+  },
+  {
+    "id": "original-2023-17",
+    "number": 17,
+    "topic": "Длины",
+    "text": "Ира расчертила лист на одинаковые прямоугольники и провела 4 ломаные линии. Длины трёх линий известны (смотри рисунок). Чему равна длина четвёртой линии?",
+    "options": [
+      "22",
+      "23",
+      "24",
+      "28",
+      "30"
+    ],
+    "correct": 4,
+    "points": 5,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-17.webp",
+      "alt": "Ира расчертила лист на одинаковые прямоугольники и провела 4 ломаные линии. Длины трёх линий известны (смотри рисунок). Чему равна длина четвёртой линии?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        194,
+        1120,
+        478
+      ]
+    }
+  },
+  {
+    "id": "original-2023-18",
+    "number": 18,
+    "topic": "Ограничения",
+    "text": "Миша, Лёня и Стёпа играли в снежки. Каждый сделал по 6 бросков, и оказалось всего 12 попаданий. Известно, что у Миши больше всех попаданий, а у Лёни — на одно попадание больше, чем у Стёпы. Сколько попаданий у Лёни?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 3,
+    "points": 5,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-18.webp",
+      "alt": "Миша, Лёня и Стёпа играли в снежки. Каждый сделал по 6 бросков, и оказалось всего 12 попаданий. Известно, что у Миши больше всех попаданий, а у Лёни — на одно попадание больше, чем у Стёпы. Сколько попаданий у Лёни?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        489,
+        1120,
+        690
+      ]
+    }
+  },
+  {
+    "id": "original-2023-19",
+    "number": 19,
+    "topic": "Площади",
+    "text": "Три квадрата на рисунке справа составлены из маленьких квадратиков со стороной 1 см. Эти квадраты положили на стол так, что получился прямоугольник, одна сторона которого равна 6 см. Чему равна площадь части стола, покрытой ровно в два слоя?",
+    "options": [
+      "4 кв. см",
+      "8 кв. см",
+      "10 кв. см",
+      "12 кв. см",
+      "18 кв. см"
+    ],
+    "correct": 3,
+    "points": 5,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-19.webp",
+      "alt": "Три квадрата на рисунке справа составлены из маленьких квадратиков со стороной 1 см. Эти квадраты положили на стол так, что получился прямоугольник, одна сторона которого равна 6 см. Чему равна площадь части стола, покрытой ровно в два слоя?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        706,
+        1120,
+        1005
+      ]
+    }
+  },
+  {
+    "id": "original-2023-20",
+    "number": 20,
+    "topic": "Цифры",
+    "text": "Назовём число с суммой цифр 20 «хорошим», если его можно получить, стерев несколько цифр в числе 178249356. Смартик нашёл самое большое из «хороших» чисел. Какая цифра обозначает сотни в этом числе?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8",
+      "9"
+    ],
+    "correct": 1,
+    "points": 5,
+    "setId": "original-2023",
+    "image": {
+      "src": "assets/tasks/originals/2023-20.webp",
+      "alt": "Назовём число с суммой цифр 20 «хорошим», если его можно получить, стерев несколько цифр в числе 178249356. Смартик нашёл самое большое из «хороших» чисел. Какая цифра обозначает сотни в этом числе?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2023,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2023.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2023/answers-2023.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        1025,
+        1120,
+        1238
+      ]
+    }
+  },
+  {
+    "id": "original-2024-01",
+    "number": 1,
+    "topic": "Графы",
+    "text": "Ленточки каких цветов надо разрезать, чтобы получить гирлянду со словом СМАРТИК?",
+    "options": [
+      "чёрные и зелёные",
+      "синие и зелёные",
+      "жёлтые и чёрные",
+      "чёрные и синие",
+      "фиолетовые и жёлтые"
+    ],
+    "correct": 0,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-01.webp",
+      "alt": "Ленточки каких цветов надо разрезать, чтобы получить гирлянду со словом СМАРТИК?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        536,
+        1120,
+        837
+      ]
+    }
+  },
+  {
+    "id": "original-2024-02",
+    "number": 2,
+    "topic": "Возможные суммы",
+    "text": "У Димы есть необычная мишень. Он бросил в неё два дротика и оба раза попал. Сколько очков он не мог набрать?",
+    "options": [
+      "35",
+      "30",
+      "25",
+      "15",
+      "10"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-02.webp",
+      "alt": "У Димы есть необычная мишень. Он бросил в неё два дротика и оба раза попал. Сколько очков он не мог набрать?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        845,
+        1120,
+        1038
+      ]
+    }
+  },
+  {
+    "id": "original-2024-03",
+    "number": 3,
+    "topic": "Единицы длины",
+    "text": "Что в тысячу раз больше 1 см?",
+    "options": [
+      "1 км",
+      "100 м",
+      "10 м",
+      "10 дм",
+      "1 м"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-03.webp",
+      "alt": "Что в тысячу раз больше 1 см?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1040,
+        1120,
+        1130
+      ]
+    }
+  },
+  {
+    "id": "original-2024-04",
+    "number": 4,
+    "topic": "Цвета и клетки",
+    "text": "В прямоугольнике Смартик изменил цвет каждой клеточки: белый — на красный, а зелёный — на жёлтый. Что получилось?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-04.webp",
+      "alt": "В прямоугольнике Смартик изменил цвет каждой клеточки: белый — на красный, а зелёный — на жёлтый. Что получилось?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1142,
+        1120,
+        1445
+      ]
+    }
+  },
+  {
+    "id": "original-2024-05",
+    "number": 5,
+    "topic": "Чётность",
+    "text": "В каком из чисел количество нечётных цифр чётно?",
+    "options": [
+      "1235",
+      "21563",
+      "581962",
+      "753941",
+      "876931"
+    ],
+    "correct": 4,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-05.webp",
+      "alt": "В каком из чисел количество нечётных цифр чётно?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1472,
+        1120,
+        1575
+      ]
+    }
+  },
+  {
+    "id": "original-2024-06",
+    "number": 6,
+    "topic": "Геометрия",
+    "text": "Квадрат разрезали на треугольники. Какую фигурку нельзя сложить из этих треугольников?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 4,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-06.webp",
+      "alt": "Квадрат разрезали на треугольники. Какую фигурку нельзя сложить из этих треугольников?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        90,
+        1120,
+        347
+      ]
+    }
+  },
+  {
+    "id": "original-2024-07",
+    "number": 7,
+    "topic": "Шифры",
+    "text": "Никита зашифровал код своей карточки: каждую цифру он уменьшил на единицу. Получилось число 7435. Какой код у его карточки?",
+    "options": [
+      "6543",
+      "8524",
+      "8546",
+      "6324",
+      "8346"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-07.webp",
+      "alt": "Никита зашифровал код своей карточки: каждую цифру он уменьшил на единицу. Получилось число 7435. Какой код у его карточки?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        373,
+        1120,
+        504
+      ]
+    }
+  },
+  {
+    "id": "original-2024-08",
+    "number": 8,
+    "topic": "Маршруты",
+    "text": "Внутри квадрата разбросаны пончики. По указанному пути летел дракончик и ел пончики. Сколько пончиков съел дракончик?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "correct": 1,
+    "points": 3,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-08.webp",
+      "alt": "Внутри квадрата разбросаны пончики. По указанному пути летел дракончик и ел пончики. Сколько пончиков съел дракончик?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        523,
+        1120,
+        859
+      ]
+    }
+  },
+  {
+    "id": "original-2024-09",
+    "number": 9,
+    "topic": "Множества",
+    "text": "У мамы есть две начинки: картофельная и грибная. Она испекла 15 пирожков, в 9 из них положила грибы, а в 8 — картошку. Сколько получилось пирожков, в которых есть и картошка, и грибы?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-09.webp",
+      "alt": "У мамы есть две начинки: картофельная и грибная. Она испекла 15 пирожков, в 9 из них положила грибы, а в 8 — картошку. Сколько получилось пирожков, в которых есть и картошка, и грибы?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        989,
+        1120,
+        1153
+      ]
+    }
+  },
+  {
+    "id": "original-2024-10",
+    "number": 10,
+    "topic": "Треугольники",
+    "text": "На левой картинке треугольников больше, чем на правой. На сколько?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-10.webp",
+      "alt": "На левой картинке треугольников больше, чем на правой. На сколько?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1179,
+        1120,
+        1314
+      ]
+    }
+  },
+  {
+    "id": "original-2024-11",
+    "number": 11,
+    "topic": "Скорость расхода",
+    "text": "Незнайка и Сиропчик катаются на автомобиле, заправленном газировкой. Автомобиль за 12 минут расходует 360 мл газировки. Каждые 4 минуты Незнайка выпивает из бака автомобиля 20 мл газировки, а Сиропчик — 30 мл. Сколько минут Незнайка и Сиропчик смогут кататься, если они залили в бак 1 л 530 мл газировки?",
+    "options": [
+      "3",
+      "9",
+      "30",
+      "36",
+      "51"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-11.webp",
+      "alt": "Незнайка и Сиропчик катаются на автомобиле, заправленном газировкой. Автомобиль за 12 минут расходует 360 мл газировки. Каждые 4 минуты Незнайка выпивает из бака автомобиля 20 мл газировки, а Сиропчик — 30 мл. Сколько минут Незнайка и Сиропчик смогут кататься, если они залили в бак 1 л 530 мл газировки?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1330,
+        1120,
+        1561
+      ]
+    }
+  },
+  {
+    "id": "original-2024-12",
+    "number": 12,
+    "topic": "Масса",
+    "text": "Красный кубик в два раза тяжелее жёлтого. Какая из фигур А–Д самая тяжёлая?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 4,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-12.webp",
+      "alt": "Красный кубик в два раза тяжелее жёлтого. Какая из фигур А–Д самая тяжёлая?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        102,
+        1120,
+        578
+      ]
+    }
+  },
+  {
+    "id": "original-2024-13",
+    "number": 13,
+    "topic": "Единицы времени",
+    "text": "На планете Смарт двое смарт-суток — это четверо земных суток, а два смарт-часа — это шесть земных часов. Сколько смарт-часов в смарт-сутках?",
+    "options": [
+      "12",
+      "16",
+      "24",
+      "36",
+      "48"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-13.webp",
+      "alt": "На планете Смарт двое смарт-суток — это четверо земных суток, а два смарт-часа — это шесть земных часов. Сколько смарт-часов в смарт-сутках?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        610,
+        1120,
+        773
+      ]
+    }
+  },
+  {
+    "id": "original-2024-14",
+    "number": 14,
+    "topic": "Календарь",
+    "text": "Кирилл с родителями планируют посетить по порядку города: Вологду, Санкт-Петербург, Москву и Казань. Путешествие рассчитано на 7 дней, с понедельника до воскресенья. В каждом городе они планируют быть один или два дня и переезжать из города в город ночью на поездах. В какой день недели они обязательно будут в Москве?",
+    "options": [
+      "во вторник",
+      "в среду",
+      "в четверг",
+      "в пятницу",
+      "в субботу"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-14.webp",
+      "alt": "Кирилл с родителями планируют посетить по порядку города: Вологду, Санкт-Петербург, Москву и Казань. Путешествие рассчитано на 7 дней, с понедельника до воскресенья. В каждом городе они планируют быть один или два дня и переезжать из города в город ночью на поездах. В какой день недели они обязательно будут в Москве?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        797,
+        1120,
+        1061
+      ]
+    }
+  },
+  {
+    "id": "original-2024-15",
+    "number": 15,
+    "topic": "Суммы и ограничения",
+    "text": "Миша написал на доске числа: 2, 3, 4, 5, 6, 7, 8. Затем закрыл эти числа фишками. Сумма чисел, закрытых треугольниками, равна 10, а сумма чисел, закрытых кружочками, равна 21. Какое из чисел А–Д обязательно находится под кружочком?",
+    "options": [
+      "8",
+      "6",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-15.webp",
+      "alt": "Миша написал на доске числа: 2, 3, 4, 5, 6, 7, 8. Затем закрыл эти числа фишками. Сумма чисел, закрытых треугольниками, равна 10, а сумма чисел, закрытых кружочками, равна 21. Какое из чисел А–Д обязательно находится под кружочком?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1090,
+        1120,
+        1350
+      ]
+    }
+  },
+  {
+    "id": "original-2024-16",
+    "number": 16,
+    "topic": "Составление уравнения",
+    "text": "Аня говорит Маше: «Отдай мне две наклейки, тогда у меня будет вдвое больше наклеек, чем у тебя». А Маша ей отвечает: «Нет! Лучше ты мне отдай две наклейки, тогда у нас наклеек будет поровну». Сколько всего наклеек у девочек?",
+    "options": [
+      "30",
+      "24",
+      "16",
+      "12",
+      "10"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-16.webp",
+      "alt": "Аня говорит Маше: «Отдай мне две наклейки, тогда у меня будет вдвое больше наклеек, чем у тебя». А Маша ей отвечает: «Нет! Лучше ты мне отдай две наклейки, тогда у нас наклеек будет поровну». Сколько всего наклеек у девочек?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1375,
+        1120,
+        1571
+      ]
+    }
+  },
+  {
+    "id": "original-2024-17",
+    "number": 17,
+    "topic": "Алгоритмы",
+    "text": "За один шаг робот Федя увеличивает число на 10, если оно меньше 100, а если оно больше 100, то уменьшает число на 2. Он начал с числа 9 и сделал 100 шагов. Какое число у него получилось?",
+    "options": [
+      "109",
+      "105",
+      "103",
+      "101",
+      "99"
+    ],
+    "correct": 0,
+    "points": 5,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-17.webp",
+      "alt": "За один шаг робот Федя увеличивает число на 10, если оно меньше 100, а если оно больше 100, то уменьшает число на 2. Он начал с числа 9 и сделал 100 шагов. Какое число у него получилось?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        194,
+        1120,
+        355
+      ]
+    }
+  },
+  {
+    "id": "original-2024-18",
+    "number": 18,
+    "topic": "Периметр",
+    "text": "Из 5 одинаковых прямоугольников Никита составил фигуру. Периметр прямоугольника равен 10. Чему равен периметр фигуры?",
+    "options": [
+      "50",
+      "45",
+      "40",
+      "35",
+      "30"
+    ],
+    "correct": 4,
+    "points": 5,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-18.webp",
+      "alt": "Из 5 одинаковых прямоугольников Никита составил фигуру. Периметр прямоугольника равен 10. Чему равен периметр фигуры?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        374,
+        1120,
+        540
+      ]
+    }
+  },
+  {
+    "id": "original-2024-19",
+    "number": 19,
+    "topic": "Числовой ребус",
+    "text": "В ребусе разные буквы обозначают разные цифры: СМАРТ × 4 = ТРАМС. Какая цифра обозначена буквой А?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "correct": 4,
+    "points": 5,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-19.webp",
+      "alt": "В ребусе разные буквы обозначают разные цифры: СМАРТ × 4 = ТРАМС. Какая цифра обозначена буквой А?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        563,
+        1120,
+        706
+      ]
+    }
+  },
+  {
+    "id": "original-2024-20",
+    "number": 20,
+    "topic": "Куб и маршруты",
+    "text": "Противоположные грани кубика окрашены в один цвет. Кубик окрашивает каждую клетку, на которую он попадает. Смартик прокатил кубик по маршруту, указанному стрелками, и остановился на клеточке, отмеченной звездой. Какая картинка получилась у Смартика?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 2,
+    "points": 5,
+    "setId": "original-2024",
+    "image": {
+      "src": "assets/tasks/originals/2024-20.webp",
+      "alt": "Противоположные грани кубика окрашены в один цвет. Кубик окрашивает каждую клетку, на которую он попадает. Смартик прокатил кубик по маршруту, указанному стрелками, и остановился на клеточке, отмеченной звездой. Какая картинка получилась у Смартика?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2024,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4-2024.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2024/answers-2024.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        726,
+        1120,
+        1193
+      ]
+    }
+  },
+  {
+    "id": "original-2025-01",
+    "number": 1,
+    "topic": "Цифры в равенстве",
+    "text": "В верном равенстве 2025 = 201□ + □ Смартик закрыл две цифры. Какие это могли быть цифры?",
+    "options": [
+      "1 и 4",
+      "2 и 3",
+      "0 и 5",
+      "6 и 7",
+      "7 и 8"
+    ],
+    "correct": 4,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-01.webp",
+      "alt": "В верном равенстве 2025 = 201□ + □ Смартик закрыл две цифры. Какие это могли быть цифры?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        606,
+        1120,
+        891
+      ]
+    }
+  },
+  {
+    "id": "original-2025-02",
+    "number": 2,
+    "topic": "Счёт",
+    "text": "Федя принёс в корзинке 2 белых гриба, 3 подберёзовика, 14 жёлудей, 8 шишек и 5 подосиновиков. Сколько грибов было в корзинке?",
+    "options": [
+      "32",
+      "24",
+      "18",
+      "10",
+      "5"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-02.webp",
+      "alt": "Федя принёс в корзинке 2 белых гриба, 3 подберёзовика, 14 жёлудей, 8 шишек и 5 подосиновиков. Сколько грибов было в корзинке?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        905,
+        1120,
+        1076
+      ]
+    }
+  },
+  {
+    "id": "original-2025-03",
+    "number": 3,
+    "topic": "Ленты",
+    "text": "Какое число получится, если начать с цифры 1 и двигаться по полоске в направлении стрелочки?",
+    "options": [
+      "12345",
+      "13452",
+      "12543",
+      "13524",
+      "13542"
+    ],
+    "correct": 4,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-03.webp",
+      "alt": "Какое число получится, если начать с цифры 1 и двигаться по полоске в направлении стрелочки?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1087,
+        1120,
+        1395
+      ]
+    }
+  },
+  {
+    "id": "original-2025-04",
+    "number": 4,
+    "topic": "Вычитание",
+    "text": "Сколько девяток в записи разности чисел миллион и тысяча один?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct": 1,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-04.webp",
+      "alt": "Сколько девяток в записи разности чисел миллион и тысяча один?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1405,
+        1120,
+        1510
+      ]
+    }
+  },
+  {
+    "id": "original-2025-05",
+    "number": 5,
+    "topic": "Сравнение количеств",
+    "text": "Петя записал на листочке свои отметки за неделю. Что верно?",
+    "options": [
+      "троек больше, чем пятёрок",
+      "четвёрок меньше, чем пятёрок",
+      "пятёрок в 2 раза больше, чем троек",
+      "четвёрок больше, чем пятёрок",
+      "троек на одну меньше, чем четвёрок"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-05.webp",
+      "alt": "Петя записал на листочке свои отметки за неделю. Что верно?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        81,
+        1120,
+        434
+      ]
+    }
+  },
+  {
+    "id": "original-2025-06",
+    "number": 6,
+    "topic": "Порядок действий",
+    "text": "В каком примере самый большой результат?",
+    "options": [
+      "8 : (2 + 2) × 2",
+      "8 : 2 : (2 + 2)",
+      "8 : 2 + 2 × 2",
+      "8 : 2 × (2 + 2)",
+      "8 : 2 + 2 : 2"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-06.webp",
+      "alt": "В каком примере самый большой результат?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        463,
+        1120,
+        590
+      ]
+    }
+  },
+  {
+    "id": "original-2025-07",
+    "number": 7,
+    "topic": "Разрезания",
+    "text": "Четыре кружочка, каждый своего цвета, положили друг на друга и сделали два разреза, как показано на рисунке. Сколько кусочков получилось?",
+    "options": [
+      "16",
+      "15",
+      "14",
+      "12",
+      "10"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-07.webp",
+      "alt": "Четыре кружочка, каждый своего цвета, положили друг на друга и сделали два разреза, как показано на рисунке. Сколько кусочков получилось?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        591,
+        1120,
+        890
+      ]
+    }
+  },
+  {
+    "id": "original-2025-08",
+    "number": 8,
+    "topic": "Промежутки",
+    "text": "У кота Матроскина в гирлянде 8 лампочек на расстоянии 20 см друг от друга, а у Шарика — 16 таких же лампочек на расстоянии 10 см друг от друга. Каждый измерил длину гирлянды от первой лампочки до последней. На сколько сантиметров отличаются эти результаты?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "эти результаты одинаковы"
+    ],
+    "correct": 0,
+    "points": 3,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-08.webp",
+      "alt": "У кота Матроскина в гирлянде 8 лампочек на расстоянии 20 см друг от друга, а у Шарика — 16 таких же лампочек на расстоянии 10 см друг от друга. Каждый измерил длину гирлянды от первой лампочки до последней. На сколько сантиметров отличаются эти результаты?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        900,
+        1120,
+        1098
+      ]
+    }
+  },
+  {
+    "id": "original-2025-09",
+    "number": 9,
+    "topic": "Числовой ребус",
+    "text": "В разности двух трёхзначных чисел некоторые цифры закрыты фишками. Одинаковые фишки закрывают одинаковые цифры, разные — разные. Чему равна сумма квадрат + круг + треугольник + треугольник? Ребус: 6□8 − △3○ = 56△.",
+    "options": [
+      "18",
+      "17",
+      "16",
+      "15",
+      "14"
+    ],
+    "correct": 0,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-09.webp",
+      "alt": "В разности двух трёхзначных чисел некоторые цифры закрыты фишками. Одинаковые фишки закрывают одинаковые цифры, разные — разные. Чему равна сумма квадрат + круг + треугольник + треугольник? Ребус: 6□8 − △3○ = 56△.",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1225,
+        1120,
+        1427
+      ]
+    }
+  },
+  {
+    "id": "original-2025-10",
+    "number": 10,
+    "topic": "Масштаб",
+    "text": "Пачка бумаги из 500 листов имеет высоту 5 см. Какой высоты получится столб, если 1 000 000 таких листов положить друг на друга?",
+    "options": [
+      "10 км",
+      "1 км",
+      "500 м",
+      "100 м",
+      "10 м"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-10.webp",
+      "alt": "Пачка бумаги из 500 листов имеет высоту 5 см. Какой высоты получится столб, если 1 000 000 таких листов положить друг на друга?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1470,
+        1120,
+        1604
+      ]
+    }
+  },
+  {
+    "id": "original-2025-11",
+    "number": 11,
+    "topic": "Графы",
+    "text": "Сколько различных путей, обозначенных стрелочками, ведёт из С в Р?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-11.webp",
+      "alt": "Сколько различных путей, обозначенных стрелочками, ведёт из С в Р?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        80,
+        1120,
+        370
+      ]
+    }
+  },
+  {
+    "id": "original-2025-12",
+    "number": 12,
+    "topic": "Масса и доли",
+    "text": "Ящик с апельсинами и Чебурашкой весил 20 килограммов. После того, как Чебурашка выбросил из ящика четверть всех апельсинов, вес уменьшился на 4 кг. Сколько килограммов весит Чебурашка, если пустой ящик весит 1 кг?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "15"
+    ],
+    "correct": 0,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-12.webp",
+      "alt": "Ящик с апельсинами и Чебурашкой весил 20 килограммов. После того, как Чебурашка выбросил из ящика четверть всех апельсинов, вес уменьшился на 4 кг. Сколько килограммов весит Чебурашка, если пустой ящик весит 1 кг?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        375,
+        1120,
+        561
+      ]
+    }
+  },
+  {
+    "id": "original-2025-13",
+    "number": 13,
+    "topic": "Один росчерк",
+    "text": "Маша нарисовала фломастером несколько ломаных линий. Сколько из этих линий она могла нарисовать, не отрывая фломастер от бумаги и не проходя по одному отрезку два раза?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 4,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-13.webp",
+      "alt": "Маша нарисовала фломастером несколько ломаных линий. Сколько из этих линий она могла нарисовать, не отрывая фломастер от бумаги и не проходя по одному отрезку два раза?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        596,
+        1120,
+        925
+      ]
+    }
+  },
+  {
+    "id": "original-2025-14",
+    "number": 14,
+    "topic": "Цифры и максимум",
+    "text": "Саша составил из цифр 2 и 3 самое большое число с суммой цифр 15. Сколько раз он использовал цифру 3?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "correct": 4,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-14.webp",
+      "alt": "Саша составил из цифр 2 и 3 самое большое число с суммой цифр 15. Сколько раз он использовал цифру 3?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        933,
+        1120,
+        1046
+      ]
+    }
+  },
+  {
+    "id": "original-2025-15",
+    "number": 15,
+    "topic": "Виды фигур",
+    "text": "Миша сложил из семи кубиков фигуру 1. В направлении какой стрелочки надо посмотреть на неё, чтобы увидеть фигуру 2?",
+    "options": [
+      "А",
+      "Б",
+      "В",
+      "Г",
+      "Д"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-15.webp",
+      "alt": "Миша сложил из семи кубиков фигуру 1. В направлении какой стрелочки надо посмотреть на неё, чтобы увидеть фигуру 2?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1073,
+        1120,
+        1387
+      ]
+    }
+  },
+  {
+    "id": "original-2025-16",
+    "number": 16,
+    "topic": "Ограничения",
+    "text": "Алина, Дуся и Прасковья — три белки в парке Подмосковья — съели 23 ореха. Прасковья съела в 2 раза больше, чем Алина, а Дуся больше, чем Алина, но меньше, чем Прасковья. На сколько орехов больше, чем Дуся, съела Прасковья?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "points": 4,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-16.webp",
+      "alt": "Алина, Дуся и Прасковья — три белки в парке Подмосковья — съели 23 ореха. Прасковья съела в 2 раза больше, чем Алина, а Дуся больше, чем Алина, но меньше, чем Прасковья. На сколько орехов больше, чем Дуся, съела Прасковья?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1404,
+        1120,
+        1600
+      ]
+    }
+  },
+  {
+    "id": "original-2025-17",
+    "number": 17,
+    "topic": "Игральные кубики",
+    "text": "Общее число точек на противоположных гранях игрального кубика равно 7. Из трёх одинаковых игральных кубиков сложили башню и точки на видимых гранях среднего кубика закрасили. Чему равно общее число точек на всех четырёх гранях, по которым эти кубики приложены друг к другу?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "18",
+      "21"
+    ],
+    "correct": 1,
+    "points": 5,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-17.webp",
+      "alt": "Общее число точек на противоположных гранях игрального кубика равно 7. Из трёх одинаковых игральных кубиков сложили башню и точки на видимых гранях среднего кубика закрасили. Чему равно общее число точек на всех четырёх гранях, по которым эти кубики приложены друг к другу?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        153,
+        1120,
+        406
+      ]
+    }
+  },
+  {
+    "id": "original-2025-18",
+    "number": 18,
+    "topic": "Расположения",
+    "text": "Лёня поставил в ряд на столе 6 фигурок из своей коллекции Лего Ниндзяго. Кай и Ллойд стоят рядом. Зейн стоит правее Ллойда, но не с краю и не рядом с Коулом. Джей стоит рядом с Ллойдом. Ещё в этом ряду есть Ния. Кто обязательно стоит рядом с Нией?",
+    "options": [
+      "Кай",
+      "Ллойд",
+      "Зейн",
+      "Коул",
+      "Джей"
+    ],
+    "correct": 2,
+    "points": 5,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-18.webp",
+      "alt": "Лёня поставил в ряд на столе 6 фигурок из своей коллекции Лего Ниндзяго. Кай и Ллойд стоят рядом. Зейн стоит правее Ллойда, но не с краю и не рядом с Коулом. Джей стоит рядом с Ллойдом. Ещё в этом ряду есть Ния. Кто обязательно стоит рядом с Нией?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        442,
+        1120,
+        631
+      ]
+    }
+  },
+  {
+    "id": "original-2025-19",
+    "number": 19,
+    "topic": "Таблица чисел",
+    "text": "Лена вписывает в клетки таблицы числа от 1 до 9. Она хочет, чтобы в каждой строке числа увеличивались слева направо, а в каждом столбце уменьшались сверху вниз. Числа 5 и 3 она уже вписала. В какой клетке окажется число 6?",
+    "options": [
+      "А",
+      "Б",
+      "В",
+      "Г",
+      "Д"
+    ],
+    "correct": 1,
+    "points": 5,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-19.webp",
+      "alt": "Лена вписывает в клетки таблицы числа от 1 до 9. Она хочет, чтобы в каждой строке числа увеличивались слева направо, а в каждом столбце уменьшались сверху вниз. Числа 5 и 3 она уже вписала. В какой клетке окажется число 6?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        670,
+        1120,
+        944
+      ]
+    }
+  },
+  {
+    "id": "original-2025-20",
+    "number": 20,
+    "topic": "Наборы цифр",
+    "text": "У Кати есть три набора цифр: чёрный, синий и красный. Каждый набор состоит из четырёх последовательных цифр. Из этих наборов Катя составляет трёхзначные числа: цифру сотен она берёт чёрную, цифру десятков — синюю, а единиц — красную. Известно, что она может составить числа 265 и 434. Какое самое большое число может получиться у Кати?",
+    "options": [
+      "357",
+      "546",
+      "467",
+      "567",
+      "577"
+    ],
+    "correct": 3,
+    "points": 5,
+    "setId": "original-2025",
+    "image": {
+      "src": "assets/tasks/originals/2025-20.webp",
+      "alt": "У Кати есть три набора цифр: чёрный, синий и красный. Каждый набор состоит из четырёх последовательных цифр. Из этих наборов Катя составляет трёхзначные числа: цифру сотен она берёт чёрную, цифру десятков — синюю, а единиц — красную. Известно, что она может составить числа 265 и 434. Какое самое большое число может получиться у Кати?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2025,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2025.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2025/answers_2025.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        978,
+        1120,
+        1238
+      ]
+    }
+  },
+  {
+    "id": "original-2026-01",
+    "number": 1,
+    "topic": "Сумма цифр",
+    "text": "Сумма цифр числа 2026 равна 10. Сколько ещё раз в этом столетии (до 2100 года) сумма цифр года будет равна 10?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-01.webp",
+      "alt": "Сумма цифр числа 2026 равна 10. Сколько ещё раз в этом столетии (до 2100 года) сумма цифр года будет равна 10?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        589,
+        1120,
+        716
+      ]
+    }
+  },
+  {
+    "id": "original-2026-02",
+    "number": 2,
+    "topic": "Схемы",
+    "text": "Кирилл катался на лыжах по горкам. Он нарисовал схему своего пути со спусками и подъёмами. Сколько у него было подъёмов?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-02.webp",
+      "alt": "Кирилл катался на лыжах по горкам. Он нарисовал схему своего пути со спусками и подъёмами. Сколько у него было подъёмов?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        748,
+        1120,
+        936
+      ]
+    }
+  },
+  {
+    "id": "original-2026-03",
+    "number": 3,
+    "topic": "Запись чисел",
+    "text": "Дима записал цифрами число сто два миллиона семьдесят две тысячи три. Сколько нулей в его записи?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-03.webp",
+      "alt": "Дима записал цифрами число сто два миллиона семьдесят две тысячи три. Сколько нулей в его записи?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        967,
+        1120,
+        1081
+      ]
+    }
+  },
+  {
+    "id": "original-2026-04",
+    "number": 4,
+    "topic": "Клетчатые фигуры",
+    "text": "У Кати есть 5 «уголков» из трёх клеточек каждый. Она положила их внутрь квадрата, показанного справа. При этом каждая клеточка уголка совпала с клеточкой того же цвета в квадрате. Сколько уголков легли поверх звёздочки?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-04.webp",
+      "alt": "У Кати есть 5 «уголков» из трёх клеточек каждый. Она положила их внутрь квадрата, показанного справа. При этом каждая клеточка уголка совпала с клеточкой того же цвета в квадрате. Сколько уголков легли поверх звёздочки?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1113,
+        1120,
+        1467
+      ]
+    }
+  },
+  {
+    "id": "original-2026-05",
+    "number": 5,
+    "topic": "Доли",
+    "text": "Сколько яблок разрезала мама, если на тарелке оказалось 7 половинок и 6 четвертинок?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 2,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-05.webp",
+      "alt": "Сколько яблок разрезала мама, если на тарелке оказалось 7 половинок и 6 четвертинок?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "right",
+      "crop": [
+        80,
+        1481,
+        1120,
+        1612
+      ]
+    }
+  },
+  {
+    "id": "original-2026-06",
+    "number": 6,
+    "topic": "Спички",
+    "text": "Аня сложила из спичек число 9999 и хочет превратить его в число 2026. За один ход она может или убрать одну спичку, или переложить одну спичку. Какое самое маленькое число ходов ей понадобится?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 3,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-06.webp",
+      "alt": "Аня сложила из спичек число 9999 и хочет превратить его в число 2026. За один ход она может или убрать одну спичку, или переложить одну спичку. Какое самое маленькое число ходов ей понадобится?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        86,
+        1120,
+        448
+      ]
+    }
+  },
+  {
+    "id": "original-2026-07",
+    "number": 7,
+    "topic": "Календарь",
+    "text": "Туристы отправились в поход в четверг в полдень. Поход длился 50 часов. В какой день недели они вернулись?",
+    "options": [
+      "в пятницу",
+      "в субботу",
+      "в воскресенье",
+      "в понедельник",
+      "во вторник"
+    ],
+    "correct": 1,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-07.webp",
+      "alt": "Туристы отправились в поход в четверг в полдень. Поход длился 50 часов. В какой день недели они вернулись?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        483,
+        1120,
+        641
+      ]
+    }
+  },
+  {
+    "id": "original-2026-08",
+    "number": 8,
+    "topic": "Площади",
+    "text": "Прямоугольную шоколадку разделили на 5 кусочков. Андрею достался самый большой кусочек, Лене и Ладе — одинаковые кусочки, а Маше — самый маленький. Какой кусочек достался Ире?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 0,
+    "points": 3,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-08.webp",
+      "alt": "Прямоугольную шоколадку разделили на 5 кусочков. Андрею достался самый большой кусочек, Лене и Ладе — одинаковые кусочки, а Маше — самый маленький. Какой кусочек достался Ире?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        674,
+        1120,
+        932
+      ]
+    }
+  },
+  {
+    "id": "original-2026-09",
+    "number": 9,
+    "topic": "Алгоритмы",
+    "text": "Числа от 0 до 30 соединены стрелочками, как показано на рисунке. Какой из следующих наборов стрелочек ведёт от числа 20 к числу 24?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-09.webp",
+      "alt": "Числа от 0 до 30 соединены стрелочками, как показано на рисунке. Какой из следующих наборов стрелочек ведёт от числа 20 к числу 24?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1073,
+        1120,
+        1434
+      ]
+    }
+  },
+  {
+    "id": "original-2026-10",
+    "number": 10,
+    "topic": "Время",
+    "text": "Через час до конца суток останется в 2 раза меньше времени, чем пройдёт с начала суток. Сколько сейчас времени?",
+    "options": [
+      "9 часов",
+      "11 часов",
+      "13 часов",
+      "15 часов",
+      "17 часов"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-10.webp",
+      "alt": "Через час до конца суток останется в 2 раза меньше времени, чем пройдёт с начала суток. Сколько сейчас времени?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "left",
+      "crop": [
+        80,
+        1453,
+        1120,
+        1616
+      ]
+    }
+  },
+  {
+    "id": "original-2026-11",
+    "number": 11,
+    "topic": "Длины",
+    "text": "У Васи есть палочки двух размеров. Он выложил из них пять фигурок. У какой фигурки сумма длин палочек самая большая?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 0,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-11.webp",
+      "alt": "У Васи есть палочки двух размеров. Он выложил из них пять фигурок. У какой фигурки сумма длин палочек самая большая?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        84,
+        1120,
+        413
+      ]
+    }
+  },
+  {
+    "id": "original-2026-12",
+    "number": 12,
+    "topic": "Расположение точек",
+    "text": "Вдоль одной стороны прямой дорожки растут 4 дерева: берёза, дуб, ель и липа. Расстояние между берёзой и липой равно 300 м. И дуб, и ель расположены в два раза дальше от липы, чем от берёзы. Чему равно расстояние между дубом и елью?",
+    "options": [
+      "200 м",
+      "250 м",
+      "350 м",
+      "400 м",
+      "450 м"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-12.webp",
+      "alt": "Вдоль одной стороны прямой дорожки растут 4 дерева: берёза, дуб, ель и липа. Расстояние между берёзой и липой равно 300 м. И дуб, и ель расположены в два раза дальше от липы, чем от берёзы. Чему равно расстояние между дубом и елью?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        438,
+        1120,
+        630
+      ]
+    }
+  },
+  {
+    "id": "original-2026-13",
+    "number": 13,
+    "topic": "Знаки действий",
+    "text": "Между цифрами числа 818225 разрешается вставлять знаки «+» или «−». Сколько знаков «−» надо вставить, чтобы получить в результате число 100?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 0,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-13.webp",
+      "alt": "Между цифрами числа 818225 разрешается вставлять знаки «+» или «−». Сколько знаков «−» надо вставить, чтобы получить в результате число 100?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        667,
+        1120,
+        824
+      ]
+    }
+  },
+  {
+    "id": "original-2026-14",
+    "number": 14,
+    "topic": "Геометрия и цвет",
+    "text": "Из четырёх одинаковых треугольников, красных с одной стороны и зелёных с другой, Катя сложила ромбик. Какой?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 3,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-14.webp",
+      "alt": "Из четырёх одинаковых треугольников, красных с одной стороны и зелёных с другой, Катя сложила ромбик. Какой?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        860,
+        1120,
+        1202
+      ]
+    }
+  },
+  {
+    "id": "original-2026-15",
+    "number": 15,
+    "topic": "Шифры",
+    "text": "Вася шифрует трёхзначные числа. Он записывает сумму первых двух цифр и приписывает к ней сумму двух последних цифр. Например, число 315 превращается в число 46, а число 348 превращается в число 712. Сколько чисел он мог превратить в число 63?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-15.webp",
+      "alt": "Вася шифрует трёхзначные числа. Он записывает сумму первых двух цифр и приписывает к ней сумму двух последних цифр. Например, число 315 превращается в число 46, а число 348 превращается в число 712. Сколько чисел он мог превратить в число 63?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1208,
+        1120,
+        1392
+      ]
+    }
+  },
+  {
+    "id": "original-2026-16",
+    "number": 16,
+    "topic": "Ограничения",
+    "text": "За три недели Миша прочитал 12 комиксов. За вторую неделю он прочитал больше комиксов, чем за первую, а за третью — больше, чем за вторую, но меньше, чем за первые две недели вместе. Сколько комиксов прочитал Миша за вторую неделю?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "points": 4,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-16.webp",
+      "alt": "За три недели Миша прочитал 12 комиксов. За вторую неделю он прочитал больше комиксов, чем за первую, а за третью — больше, чем за вторую, но меньше, чем за первые две недели вместе. Сколько комиксов прочитал Миша за вторую неделю?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 2,
+      "side": "right",
+      "crop": [
+        80,
+        1433,
+        1120,
+        1614
+      ]
+    }
+  },
+  {
+    "id": "original-2026-17",
+    "number": 17,
+    "topic": "Пространство",
+    "text": "У Феди в конструкторе четыре одинаковые детали. Каждая состоит из трёх кубиков: красного, зелёного и белого (рисунок 1). Из этих деталей Федя сложил брусок (рисунок 2). Как выглядит этот брусок сзади?",
+    "options": [
+      "Рисунок А",
+      "Рисунок Б",
+      "Рисунок В",
+      "Рисунок Г",
+      "Рисунок Д"
+    ],
+    "correct": 3,
+    "points": 5,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-17.webp",
+      "alt": "У Феди в конструкторе четыре одинаковые детали. Каждая состоит из трёх кубиков: красного, зелёного и белого (рисунок 1). Из этих деталей Федя сложил брусок (рисунок 2). Как выглядит этот брусок сзади?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        118,
+        1120,
+        480
+      ]
+    }
+  },
+  {
+    "id": "original-2026-18",
+    "number": 18,
+    "topic": "Цифры и порядок",
+    "text": "На доске написаны пять чисел: 32, 42, 62, 52, 61. Смартик записал их в строчку без пробелов. Оказалось, что в его записи нельзя увидеть число 26 (идущие подряд цифры 2 и 6). Какое число он записал вторым?",
+    "options": [
+      "32",
+      "42",
+      "52",
+      "61",
+      "62"
+    ],
+    "correct": 4,
+    "points": 5,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-18.webp",
+      "alt": "На доске написаны пять чисел: 32, 42, 62, 52, 61. Смартик записал их в строчку без пробелов. Оказалось, что в его записи нельзя увидеть число 26 (идущие подряд цифры 2 и 6). Какое число он записал вторым?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        494,
+        1120,
+        781
+      ]
+    }
+  },
+  {
+    "id": "original-2026-19",
+    "number": 19,
+    "topic": "Множества",
+    "text": "В корзине лежат яблоки. Каждое яблоко — красное или зелёное, большое или маленькое, кислое или сладкое. Известно, что все маленькие яблоки — красные, а все кислые — маленькие. Больших яблок в корзине 10, сладких — 14, а красных сладких — 8. Сколько больших красных яблок в корзине?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 0,
+    "points": 5,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-19.webp",
+      "alt": "В корзине лежат яблоки. Каждое яблоко — красное или зелёное, большое или маленькое, кислое или сладкое. Известно, что все маленькие яблоки — красные, а все кислые — маленькие. Больших яблок в корзине 10, сладких — 14, а красных сладких — 8. Сколько больших красных яблок в корзине?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        809,
+        1120,
+        1022
+      ]
+    }
+  },
+  {
+    "id": "original-2026-20",
+    "number": 20,
+    "topic": "Числовой ребус",
+    "text": "В ребусе буквы слова СМАРТ обозначают различные цифры: СМ39 + АРТ = 2026. Сколько различных значений может принимать буква А?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 4,
+    "points": 5,
+    "setId": "original-2026",
+    "image": {
+      "src": "assets/tasks/originals/2026-20.webp",
+      "alt": "В ребусе буквы слова СМАРТ обозначают различные цифры: СМ39 + АРТ = 2026. Сколько различных значений может принимать буква А?",
+      "kind": "question"
+    },
+    "source": {
+      "kind": "original",
+      "year": 2026,
+      "contest": "Смарт Кенгуру",
+      "grade": "3–4",
+      "file": "3-4_2026.pdf",
+      "url": "https://mathkang.ru/rar",
+      "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+      "answerVerified": true,
+      "spread": 1,
+      "side": "left",
+      "crop": [
+        80,
+        1057,
+        1120,
+        1283
+      ]
+    }
+  }
+]

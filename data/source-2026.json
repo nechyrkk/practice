@@ -1,0 +1,30 @@
+{
+  "year": 2026,
+  "file": "3-4_2026.pdf",
+  "sha256": "7763c22ae8194e17f80f4a227f9dc1fab42363b5642c69c97c1a7cb1a70a2ca0",
+  "tasks": 20,
+  "answerKeyUrl": "https://files.mathkang.ru/2026/answers_2026.pdf",
+  "answerIndexes": [
+    2,
+    3,
+    3,
+    2,
+    2,
+    3,
+    1,
+    0,
+    2,
+    3,
+    0,
+    3,
+    0,
+    3,
+    2,
+    2,
+    3,
+    4,
+    0,
+    4
+  ],
+  "review": "Source crops and official answer key visually checked"
+}
