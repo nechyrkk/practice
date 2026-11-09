@@ -102,10 +102,12 @@
   }
 
   function sync() {
-    const next = hero.dataset.quoteReady === 'true' || hero.classList.contains('is-fallback');
+    const next = hero.dataset.returned === 'true' || hero.dataset.quoteReady === 'true' || hero.classList.contains('is-fallback');
     if (next === started) return;
     started = next;
-    if (started) write(); else reset();
+    if (started) {
+      if (hero.dataset.returned === 'true') finish(); else write();
+    } else reset();
   }
   new MutationObserver(sync).observe(hero, { attributes: true, attributeFilter: ['data-quote-ready', 'class'] });
   document.addEventListener('visibilitychange', () => {

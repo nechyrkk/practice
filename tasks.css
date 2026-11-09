@@ -69,6 +69,7 @@ progress::-moz-progress-bar { background: #4b7483; }
 .question-figure { margin: 6px 0 25px; padding: 12px; border: 1px solid #7997a51a; border-radius: 14px; background: #d3e4ed36; }
 .question-figure img { display: block; max-width: 100%; max-height: 250px; width: auto; margin: auto; }
 .question-source { margin: 12px 0 0; color: #718b97; font-size: 10px; }
+.question-card.is-switching { pointer-events: none; }
 .question-figure a { display: block; border-radius: 6px; cursor: zoom-in; }
 .question-figure figcaption { margin-top: 10px; text-align: right; font-size: 10px; color: #718b97; }
 .question-figure.is-source-question { margin-top: 24px; padding: 16px; background: #fff; }

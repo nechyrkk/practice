@@ -5,6 +5,13 @@
   const letters = ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ж'];
   const dialog = $('confirm-dialog');
   let state, tasks, pendingAction = null;
+  let switchVersion = 0, switchAnimation = null;
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  function stopSwitch() {
+    switchVersion++;
+    switchAnimation?.cancel(); switchAnimation = null;
+    $('question-card').classList.remove('is-switching');
+  }
 
   function persist() {
     const saved = engine.save(bank, state);
@@ -112,10 +119,30 @@
       $('question-card').scrollIntoView({ block: 'start', behavior: 'auto' });
     }
   }
-  function navigate(index) {
-    state.current = Math.max(0, Math.min(tasks.length - 1, index)); persist(); renderQuestion(true);
+  async function navigate(index) {
+    const target = Math.max(0, Math.min(tasks.length - 1, index));
+    const card = $('question-card'), opacity = getComputedStyle(card).opacity;
+    stopSwitch();
+    if (target === state.current && !card.hidden) return;
+    const version = switchVersion;
+    const animate = !motion.matches && !card.hidden && typeof card.animate === 'function';
+    if (animate) {
+      card.classList.add('is-switching');
+      switchAnimation = card.animate([{ opacity }, { opacity: 0 }], { duration: 80, easing: 'ease-out', fill: 'forwards' });
+      await switchAnimation.finished.catch(() => {});
+      if (version !== switchVersion) return;
+      switchAnimation.cancel();
+    }
+    state.current = target; persist(); renderQuestion(true);
+    if (animate) {
+      switchAnimation = card.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 140, easing: 'ease-out' });
+      await switchAnimation.finished.catch(() => {});
+      if (version !== switchVersion) return;
+    }
+    switchAnimation = null; card.classList.remove('is-switching');
   }
   function renderResults(focus = true) {
+    stopSwitch();
     const report = engine.grade(bank, state);
     $('question-card').hidden = true; $('results-card').hidden = false;
     $('results-title').textContent = 'Вариант завершён';
@@ -132,9 +159,11 @@
     }
   }
   function freshVariant() {
+    stopSwitch();
     state = engine.generate(bank); tasks = engine.tasksFor(bank, state); persist(); renderQuestion(true);
   }
   function confirm(kind) {
+    stopSwitch();
     pendingAction = kind;
     if (kind === 'finish') {
       const missing = tasks.length - answeredCount();

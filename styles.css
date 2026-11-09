@@ -51,7 +51,8 @@ h1 { margin: 20px 0 8px; font-size: clamp(23px, 4vw, 30px); font-weight: 500; le
 button:focus-visible, input:focus-visible { outline: 3px solid #5d98b0; outline-offset: 4px; }
 #result { margin-bottom: 0; font-size: 14px; line-height: 1.5; }
 @media (max-width: 700px) {
-  .hero { min-height: 460px; }
+  :root { background: #a6c1d8; }
+  .hero { min-height: 460px; background: linear-gradient(125deg, #a6c1d8, #98b5cf); }
   .still { object-fit: cover; object-position: 76% center; }
   .generate { left: 8%; top: auto; bottom: 32%; width: 84%; height: 56px; font-size: 17px; }
   .hero-quote { left: 8%; bottom: 19%; width: 84%; max-width: none; font-size: clamp(11px, 3.2vw, 15px); }

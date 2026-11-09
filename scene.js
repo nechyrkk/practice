@@ -8,13 +8,20 @@
   const image = document.querySelector('.still');
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   const query = new URLSearchParams(location.search);
+  const returning = query.get('from') === 'tasks';
+  if (returning) {
+    hero.dataset.returned = 'true';
+    const cleanURL = new URL(location.href);
+    cleanURL.searchParams.delete('from');
+    history.replaceState(history.state, '', cleanURL);
+  }
   const frozen = query.has('frame') && Number.isFinite(Number(query.get('frame')))
     ? Math.max(0, Number(query.get('frame'))) : null;
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
   const smooth = v => { v = clamp(v); return v * v * (3 - 2 * v); };
   const progress = (t, start, duration) => smooth((t - start) / duration);
   let layout, start = 0, raf = 0, time = 0, pausedAt = 0, ready = false;
-  let layers = [], backdrop, drop, staticScene, reduced = motion.matches;
+  let layers = [], backdrop, drop, staticScene, mobileSky, reduced = motion.matches;
   const water = new Path2D('M 710 628 C 751 583 855 582 939 556 C 1005 537 1031 508 1094 487 C 1142 472 1190 477 1232 489 C 1300 507 1378 515 1420 540 C 1442 566 1370 591 1311 613 C 1241 650 1189 679 1096 695 C 1008 714 878 700 802 677 C 755 661 727 649 710 628 Z');
 
   function resize() {
@@ -30,6 +37,7 @@
     layout = { width: box.width, height: box.height, dpr, scale, x, y, mobile };
     canvas.width = Math.round(box.width * dpr);
     canvas.height = Math.round(box.height * dpr);
+    if (mobile) mobileSky = makeMobileSky();
     if (!mobile) {
       Object.assign(button.style, {
         top: `${y + 476 * scale - Math.max(60, 98 * scale) / 2}px`,
@@ -43,6 +51,23 @@
 
   function makeCanvas(w = W, h = H) {
     const c = document.createElement('canvas'); c.width = w; c.height = h; return c;
+  }
+
+  function makeMobileSky() {
+    const { width, height, dpr, y, scale } = layout;
+    const c = makeCanvas(canvas.width, canvas.height), a = c.getContext('2d');
+    a.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const sky = a.createLinearGradient(0, 0, width, height);
+    sky.addColorStop(0, '#a6c1d8'); sky.addColorStop(1, '#98b5cf');
+    a.fillStyle = sky; a.fillRect(0, 0, width, height);
+    const feather = a.createLinearGradient(0, y, 0, y + H * scale);
+    feather.addColorStop(0, '#fff0');
+    feather.addColorStop(180 / H, '#fff');
+    feather.addColorStop(770 / H, '#fff');
+    feather.addColorStop(1, '#fff0');
+    a.globalCompositeOperation = 'destination-out';
+    a.fillStyle = feather; a.fillRect(0, 0, width, height);
+    return c;
   }
 
   function maskedLayer(path, feather = 5) {
@@ -110,15 +135,18 @@
     const { dpr, width, height, scale: s, x, y, mobile } = layout;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     const sky = ctx.createLinearGradient(0, 0, width, height);
-    sky.addColorStop(0, '#bdd3e4'); sky.addColorStop(1, '#8faecc');
+    sky.addColorStop(0, mobile ? '#a6c1d8' : '#bdd3e4');
+    sky.addColorStop(1, mobile ? '#98b5cf' : '#8faecc');
     ctx.fillStyle = sky; ctx.fillRect(0, 0, width, height);
     // Extend the actual edge colors on taller windows. Containing the scene
     // keeps both the left button and the right grove on screen at every ratio.
     const edgeImage = t >= 5.75 ? staticScene : backdrop;
     ctx.save(); ctx.filter = 'blur(20px)';
-    if (y > 0) ctx.drawImage(edgeImage, 0, 0, W, 1, x - 35, -35, W * s + 70, y + 70);
-    const bottom = y + H * s;
-    if (bottom < height) ctx.drawImage(edgeImage, 0, H - 1, W, 1, x - 35, bottom - 35, W * s + 70, height - bottom + 70);
+    if (!mobile) {
+      if (y > 0) ctx.drawImage(edgeImage, 0, 0, W, 1, x - 35, -35, W * s + 70, y + 70);
+      const bottom = y + H * s;
+      if (bottom < height) ctx.drawImage(edgeImage, 0, H - 1, W, 1, x - 35, bottom - 35, W * s + 70, height - bottom + 70);
+    }
     ctx.restore();
     ctx.setTransform(dpr * s, 0, 0, dpr * s, dpr * x, dpr * y);
     if (t >= 5.75 && !mobile) {
@@ -163,12 +191,11 @@
     const final = progress(t, 4.65, 1.10);
     if (final) { ctx.save(); ctx.globalAlpha = final; ctx.drawImage(staticScene, 0, 0); ctx.restore(); }
     if (mobile) {
-      // Keep the mobile vignette floating in the same sky instead of exposing
-      // image edges when the 16:9 composition is reframed into a portrait.
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      const veil = ctx.createLinearGradient(0, height * .6, 0, height * .78);
-      veil.addColorStop(0, '#9bb7d000'); veil.addColorStop(1, '#9bb7d0');
-      ctx.fillStyle = veil; ctx.fillRect(0, height * .6, width, height * .4);
+      // Blend only empty sky and the margin below the shore into one full-height
+      // background. Trees start below source row 208; the shore ends above 770.
+      // Apply this before the drop and ripples so their geometry stays intact.
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
+      ctx.drawImage(mobileSky, 0, 0);
       ctx.setTransform(dpr * s, 0, 0, dpr * s, dpr * x, dpr * y);
     }
     drawRipples(t);
@@ -319,9 +346,10 @@
     start = performance.now() - END * 1000; time = END; draw(time);
     hero.dataset.scene = 'settled';
   }
-  function play() {
+  function play(from = 0) {
     if (!ready) return;
-    cancelAnimationFrame(raf); start = performance.now(); tick.last = 0;
+    if (from === 0) delete hero.dataset.returned;
+    cancelAnimationFrame(raf); start = performance.now() - from * 1000; tick.last = 0;
     raf = requestAnimationFrame(tick);
   }
   document.addEventListener('keydown', e => {
@@ -344,7 +372,7 @@
     try { await image.decode(); } catch { hero.classList.add('is-fallback'); return; }
     if (!ctx) { hero.classList.add('is-fallback'); return; }
     prepare(); ready = true; hero.classList.add('is-playing');
-    time = reduced ? END : frozen ?? 0; draw(time); play();
+    time = reduced || returning ? END : frozen ?? 0; draw(time); play(time);
   }
   init();
 })();
